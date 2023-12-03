@@ -1,0 +1,24 @@
+# ninja log v5
+3	31	0	C:/Users/Sykoo/Desktop/CS213-2023-2024-Assignment3-V1.0/CS213-2023-2024-Assignment3-V1.0/XO_OOP_wRandom/cmake-build-debug/CMakeFiles/cmake.verify_globs	f7d956b88dc8362
+15	836	7232908030833329	CMakeFiles/sykoo.dir/src/X_O_App.cpp.obj	7d0e743ebfe1ae35
+4	840	7232908030913293	CMakeFiles/sykoo.dir/src/GameManager.cpp.obj	5f38c9d987b0a601
+1	1346	7232908035963301	CMakeFiles/sykoo.dir/src/Player.cpp.obj	55cc0eea24be39da
+19	1352	7232908036033309	CMakeFiles/sykoo.dir/src/RandomPlayer.cpp.obj	6f13f1773d65a7bd
+11	1357	7232908036083303	CMakeFiles/sykoo.dir/src/X_O_Board.cpp.obj	787b3ff9169c7d3
+8	1361	7232908036133313	CMakeFiles/sykoo.dir/src/X_O_Board_game_1.cpp.obj	714a788ed8207b48
+1362	1506	7232908037533308	sykoo.exe	c7b5eb7a025b7ad9
+1	26	0	C:/Users/Sykoo/Desktop/CS213-2023-2024-Assignment3-V1.0/CS213-2023-2024-Assignment3-V1.0/XO_OOP_wRandom/cmake-build-debug/CMakeFiles/cmake.verify_globs	f7d956b88dc8362
+12	1027	7232918431220496	CMakeFiles/sykoo.dir/src/X_O_App.cpp.obj	7d0e743ebfe1ae35
+9	1056	7232918431510558	CMakeFiles/sykoo.dir/src/GameManager.cpp.obj	5f38c9d987b0a601
+23	1566	7232918436610550	CMakeFiles/sykoo.dir/src/RandomPlayer.cpp.obj	6f13f1773d65a7bd
+19	1571	7232918436680535	CMakeFiles/sykoo.dir/src/X_O_Board_game_1.cpp.obj	714a788ed8207b48
+7	1581	7232918436770477	CMakeFiles/sykoo.dir/src/Player.cpp.obj	55cc0eea24be39da
+16	1582	7232918436790455	CMakeFiles/sykoo.dir/src/X_O_Board.cpp.obj	787b3ff9169c7d3
+1582	1708	7232918438030443	sykoo.exe	c7b5eb7a025b7ad9
+2	28	0	C:/Users/Sykoo/Desktop/CS213-2023-2024-Assignment3-V1.0/CS213-2023-2024-Assignment3-V1.0/XO_OOP_wRandom/cmake-build-debug/CMakeFiles/cmake.verify_globs	f7d956b88dc8362
+2	26	0	C:/Users/Sykoo/Desktop/CS213-2023-2024-Assignment3-V1.0/CS213-2023-2024-Assignment3-V1.0/XO_OOP_wRandom/cmake-build-debug/CMakeFiles/cmake.verify_globs	f7d956b88dc8362
+5	946	7232922470102042	CMakeFiles/sykoo.dir/src/X_O_Board_game_1.cpp.obj	714a788ed8207b48
+947	1059	7232922471202015	sykoo.exe	c7b5eb7a025b7ad9
+1	24	0	C:/Users/Sykoo/Desktop/CS213-2023-2024-Assignment3-V1.0/CS213-2023-2024-Assignment3-V1.0/XO_OOP_wRandom/cmake-build-debug/CMakeFiles/cmake.verify_globs	f7d956b88dc8362
+5	550	7232933809269037	CMakeFiles/sykoo.dir/src/GameManager.cpp.obj	5f38c9d987b0a601
+550	671	7232933810459038	sykoo.exe	c7b5eb7a025b7ad9
