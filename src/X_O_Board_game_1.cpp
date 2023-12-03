@@ -1,6 +1,5 @@
 
 #include<iostream>
-#include <random>
 #include <iomanip>
 #include <algorithm>
 #include<BoardGame_Classes.hpp>
@@ -18,6 +17,9 @@ X_O_Board_game_1::X_O_Board_game_1() {
 }
 
 bool X_O_Board_game_1::update_board ( int x , int y , char mark ){
+    if ( !board[x][y] ){
+        return false ;
+    }
     switch ( x ) {
         case 0 :
             if ( y == 2 ){
