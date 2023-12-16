@@ -20,7 +20,7 @@ X_O_Board_game_2::X_O_Board_game_2() {
 }
 
 bool X_O_Board_game_2::update_board(int x, int y, char mark) {
-     if ( (x >= 0 && x <= 5 && y >= 0 && y <= 6) && (board[x+3][y+3]==0 )) {
+        if ( (x >= 0 && x <= 5 && y >= 0 && y <= 6) && (board[x+3][y+3]==0 )) {
             while(board[x + 4][y + 3] ==0){
                 x++;
             }
@@ -28,7 +28,7 @@ bool X_O_Board_game_2::update_board(int x, int y, char mark) {
             n_moves++;
             return true;
         }
-    else {
+    else{
         return false;
     }
 }
@@ -79,9 +79,23 @@ bool X_O_Board_game_2::is_draw() {
 }
 
 bool X_O_Board_game_2::game_is_over() {
-    return (n_moves>=42);
+ return (n_moves>=42);
+}
+int X_O_Board_game_2::win_with( int x , int y ) {
+    if ( board[x+3][y+3] ) {
+        return 0 ;
+    }
+    board[x+3][y+3]  = 'O' ;
+    if ( is_winner() ){
+        board[x+3][y+3]  = 0 ;
+        return 3 ;
+    }
+    board[x+3][y+3]  = 'X' ;
+    if ( is_winner() ){
+        board[x+3][y+3]  = 0 ;
+        return 2 ;
+    }
+    board[x+3][y+3]  = 0 ;
+    return 1 ;
 }
 
-int X_O_Board_game_2::win_with(int x, int y) {
-    return 0;
-}
