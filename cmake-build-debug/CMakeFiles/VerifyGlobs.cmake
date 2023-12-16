@@ -3,22 +3,22 @@
 cmake_policy(SET CMP0009 NEW)
 
 # MY_SOURCES at CMakeLists.txt:13 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/*.cpp")
 set(OLD_GLOB
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/GameManager.cpp"
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/Player.cpp"
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/RandomPlayer.cpp"
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/RandomPlayer_game_1.cpp"
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/RandomPlayer_game_2.cpp"
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/X_O_App.cpp"
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/X_O_Board.cpp"
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/X_O_Board_game_1.cpp"
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/X_O_Board_game_2.cpp"
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/funcs.cpp"
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/game_1.cpp"
-  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/src/game_2.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/GameManager.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/Player.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/RandomPlayer.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/RandomPlayer_game_1.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/RandomPlayer_game_2.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/X_O_App.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/X_O_Board.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/X_O_Board_game_1.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/X_O_Board_game_2.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/funcs.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/game_1.cpp"
+  "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/src/game_2.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/cmake-build-debug/CMakeFiles/cmake.verify_globs")
 endif()

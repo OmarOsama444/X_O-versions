@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Sykoo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Sykoo-Debug-0a991bf9e23b73832dd4.json",
+					"jsonFile" : "target-Sykoo-Debug-0c135c13ad149c1117f8.json",
 					"name" : "Sykoo",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/cmake-build-debug",
-		"source" : "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update"
+		"build" : "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/cmake-build-debug",
+		"source" : "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions"
 	},
 	"version" : 
 	{

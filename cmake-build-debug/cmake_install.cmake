@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update
+# Install script for directory: C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Sykoo/Desktop/Coding/Ass3/project/last by danny/X_O-versions/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
