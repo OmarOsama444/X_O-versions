@@ -20,11 +20,14 @@ X_O_Board_game_2::X_O_Board_game_2() {
 }
 
 bool X_O_Board_game_2::update_board(int x, int y, char mark) {
-    if ( (x >= 0 && x <= 5 && y >= 0 && y <= 6) && (board[x + 4][y + 3] !=0) && (board[x+3][y+3]==0 )) {
-        board[x + 3][y + 3] = mark;
-        n_moves++;
-        return true;
-    }
+     if ( (x >= 0 && x <= 5 && y >= 0 && y <= 6) && (board[x+3][y+3]==0 )) {
+            while(board[x + 4][y + 3] ==0){
+                x++;
+            }
+            board[x + 3][y + 3] = mark;
+            n_moves++;
+            return true;
+        }
     else {
         return false;
     }
