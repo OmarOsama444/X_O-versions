@@ -5,6 +5,7 @@
 //#include <funcs.hpp>
 //using namespace std ;
 //
+// GUI
 //int main() {
 //
 //    // window for choosing the game ;
