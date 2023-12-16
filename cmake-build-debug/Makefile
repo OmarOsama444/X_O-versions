@@ -273,6 +273,30 @@ src/RandomPlayer_game_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sykoo.dir\build.make CMakeFiles/Sykoo.dir/src/RandomPlayer_game_2.cpp.s
 .PHONY : src/RandomPlayer_game_2.cpp.s
 
+src/RandomPlayer_game_3.obj: src/RandomPlayer_game_3.cpp.obj
+.PHONY : src/RandomPlayer_game_3.obj
+
+# target to build an object file
+src/RandomPlayer_game_3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sykoo.dir\build.make CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.obj
+.PHONY : src/RandomPlayer_game_3.cpp.obj
+
+src/RandomPlayer_game_3.i: src/RandomPlayer_game_3.cpp.i
+.PHONY : src/RandomPlayer_game_3.i
+
+# target to preprocess a source file
+src/RandomPlayer_game_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sykoo.dir\build.make CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.i
+.PHONY : src/RandomPlayer_game_3.cpp.i
+
+src/RandomPlayer_game_3.s: src/RandomPlayer_game_3.cpp.s
+.PHONY : src/RandomPlayer_game_3.s
+
+# target to generate assembly for a file
+src/RandomPlayer_game_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sykoo.dir\build.make CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.s
+.PHONY : src/RandomPlayer_game_3.cpp.s
+
 src/X_O_App.obj: src/X_O_App.cpp.obj
 .PHONY : src/X_O_App.obj
 
@@ -368,6 +392,30 @@ src/X_O_Board_game_2.s: src/X_O_Board_game_2.cpp.s
 src/X_O_Board_game_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sykoo.dir\build.make CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.s
 .PHONY : src/X_O_Board_game_2.cpp.s
+
+src/X_O_Board_game_3.obj: src/X_O_Board_game_3.cpp.obj
+.PHONY : src/X_O_Board_game_3.obj
+
+# target to build an object file
+src/X_O_Board_game_3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sykoo.dir\build.make CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.obj
+.PHONY : src/X_O_Board_game_3.cpp.obj
+
+src/X_O_Board_game_3.i: src/X_O_Board_game_3.cpp.i
+.PHONY : src/X_O_Board_game_3.i
+
+# target to preprocess a source file
+src/X_O_Board_game_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sykoo.dir\build.make CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.i
+.PHONY : src/X_O_Board_game_3.cpp.i
+
+src/X_O_Board_game_3.s: src/X_O_Board_game_3.cpp.s
+.PHONY : src/X_O_Board_game_3.s
+
+# target to generate assembly for a file
+src/X_O_Board_game_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sykoo.dir\build.make CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.s
+.PHONY : src/X_O_Board_game_3.cpp.s
 
 src/funcs.obj: src/funcs.cpp.obj
 .PHONY : src/funcs.obj
@@ -468,6 +516,9 @@ help:
 	@echo ... src/RandomPlayer_game_2.obj
 	@echo ... src/RandomPlayer_game_2.i
 	@echo ... src/RandomPlayer_game_2.s
+	@echo ... src/RandomPlayer_game_3.obj
+	@echo ... src/RandomPlayer_game_3.i
+	@echo ... src/RandomPlayer_game_3.s
 	@echo ... src/X_O_App.obj
 	@echo ... src/X_O_App.i
 	@echo ... src/X_O_App.s
@@ -480,6 +531,9 @@ help:
 	@echo ... src/X_O_Board_game_2.obj
 	@echo ... src/X_O_Board_game_2.i
 	@echo ... src/X_O_Board_game_2.s
+	@echo ... src/X_O_Board_game_3.obj
+	@echo ... src/X_O_Board_game_3.i
+	@echo ... src/X_O_Board_game_3.s
 	@echo ... src/funcs.obj
 	@echo ... src/funcs.i
 	@echo ... src/funcs.s

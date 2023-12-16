@@ -40,8 +40,11 @@ int main() {
         if ( choice == 1 )
             players[1] = new RandomPlayer_game_2( 'O' , 6 , 7 , brd ) ;
         GameManager( brd , players ).run() ;
-    } else if ( chc == 4 ) {
-
+    } else if (chc == 4) {
+        brd = new X_O_Board_game_3() ;
+        if ( choice == 1 )
+            players[1] = new RandomPlayer_game_3( 'O', 5 );
+        GameManager( brd , players).run() ;
     } else {
         cout << "INVALID CHOICE \n" ;
         system("pause") ;

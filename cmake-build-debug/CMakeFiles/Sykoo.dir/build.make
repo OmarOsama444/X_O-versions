@@ -158,11 +158,26 @@ CMakeFiles/Sykoo.dir/src/RandomPlayer_game_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sykoo.dir/src/RandomPlayer_game_2.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\RandomPlayer_game_2.cpp" -o CMakeFiles\Sykoo.dir\src\RandomPlayer_game_2.cpp.s
 
+CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.obj: CMakeFiles/Sykoo.dir/flags.make
+CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.obj: CMakeFiles/Sykoo.dir/includes_CXX.rsp
+CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.obj: C:/Users/Sykoo/Desktop/Coding/Ass3/project/last\ by\ danny/X_O-versions/src/RandomPlayer_game_3.cpp
+CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.obj: CMakeFiles/Sykoo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.obj -MF CMakeFiles\Sykoo.dir\src\RandomPlayer_game_3.cpp.obj.d -o CMakeFiles\Sykoo.dir\src\RandomPlayer_game_3.cpp.obj -c "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\RandomPlayer_game_3.cpp"
+
+CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\RandomPlayer_game_3.cpp" > CMakeFiles\Sykoo.dir\src\RandomPlayer_game_3.cpp.i
+
+CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\RandomPlayer_game_3.cpp" -o CMakeFiles\Sykoo.dir\src\RandomPlayer_game_3.cpp.s
+
 CMakeFiles/Sykoo.dir/src/X_O_App.cpp.obj: CMakeFiles/Sykoo.dir/flags.make
 CMakeFiles/Sykoo.dir/src/X_O_App.cpp.obj: CMakeFiles/Sykoo.dir/includes_CXX.rsp
 CMakeFiles/Sykoo.dir/src/X_O_App.cpp.obj: C:/Users/Sykoo/Desktop/Coding/Ass3/project/last\ by\ danny/X_O-versions/src/X_O_App.cpp
 CMakeFiles/Sykoo.dir/src/X_O_App.cpp.obj: CMakeFiles/Sykoo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Sykoo.dir/src/X_O_App.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Sykoo.dir/src/X_O_App.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sykoo.dir/src/X_O_App.cpp.obj -MF CMakeFiles\Sykoo.dir\src\X_O_App.cpp.obj.d -o CMakeFiles\Sykoo.dir\src\X_O_App.cpp.obj -c "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\X_O_App.cpp"
 
 CMakeFiles/Sykoo.dir/src/X_O_App.cpp.i: cmake_force
@@ -177,7 +192,7 @@ CMakeFiles/Sykoo.dir/src/X_O_Board.cpp.obj: CMakeFiles/Sykoo.dir/flags.make
 CMakeFiles/Sykoo.dir/src/X_O_Board.cpp.obj: CMakeFiles/Sykoo.dir/includes_CXX.rsp
 CMakeFiles/Sykoo.dir/src/X_O_Board.cpp.obj: C:/Users/Sykoo/Desktop/Coding/Ass3/project/last\ by\ danny/X_O-versions/src/X_O_Board.cpp
 CMakeFiles/Sykoo.dir/src/X_O_Board.cpp.obj: CMakeFiles/Sykoo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Sykoo.dir/src/X_O_Board.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Sykoo.dir/src/X_O_Board.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sykoo.dir/src/X_O_Board.cpp.obj -MF CMakeFiles\Sykoo.dir\src\X_O_Board.cpp.obj.d -o CMakeFiles\Sykoo.dir\src\X_O_Board.cpp.obj -c "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\X_O_Board.cpp"
 
 CMakeFiles/Sykoo.dir/src/X_O_Board.cpp.i: cmake_force
@@ -192,7 +207,7 @@ CMakeFiles/Sykoo.dir/src/X_O_Board_game_1.cpp.obj: CMakeFiles/Sykoo.dir/flags.ma
 CMakeFiles/Sykoo.dir/src/X_O_Board_game_1.cpp.obj: CMakeFiles/Sykoo.dir/includes_CXX.rsp
 CMakeFiles/Sykoo.dir/src/X_O_Board_game_1.cpp.obj: C:/Users/Sykoo/Desktop/Coding/Ass3/project/last\ by\ danny/X_O-versions/src/X_O_Board_game_1.cpp
 CMakeFiles/Sykoo.dir/src/X_O_Board_game_1.cpp.obj: CMakeFiles/Sykoo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Sykoo.dir/src/X_O_Board_game_1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Sykoo.dir/src/X_O_Board_game_1.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sykoo.dir/src/X_O_Board_game_1.cpp.obj -MF CMakeFiles\Sykoo.dir\src\X_O_Board_game_1.cpp.obj.d -o CMakeFiles\Sykoo.dir\src\X_O_Board_game_1.cpp.obj -c "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\X_O_Board_game_1.cpp"
 
 CMakeFiles/Sykoo.dir/src/X_O_Board_game_1.cpp.i: cmake_force
@@ -207,7 +222,7 @@ CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.obj: CMakeFiles/Sykoo.dir/flags.ma
 CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.obj: CMakeFiles/Sykoo.dir/includes_CXX.rsp
 CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.obj: C:/Users/Sykoo/Desktop/Coding/Ass3/project/last\ by\ danny/X_O-versions/src/X_O_Board_game_2.cpp
 CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.obj: CMakeFiles/Sykoo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.obj -MF CMakeFiles\Sykoo.dir\src\X_O_Board_game_2.cpp.obj.d -o CMakeFiles\Sykoo.dir\src\X_O_Board_game_2.cpp.obj -c "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\X_O_Board_game_2.cpp"
 
 CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.i: cmake_force
@@ -218,11 +233,26 @@ CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\X_O_Board_game_2.cpp" -o CMakeFiles\Sykoo.dir\src\X_O_Board_game_2.cpp.s
 
+CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.obj: CMakeFiles/Sykoo.dir/flags.make
+CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.obj: CMakeFiles/Sykoo.dir/includes_CXX.rsp
+CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.obj: C:/Users/Sykoo/Desktop/Coding/Ass3/project/last\ by\ danny/X_O-versions/src/X_O_Board_game_3.cpp
+CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.obj: CMakeFiles/Sykoo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.obj -MF CMakeFiles\Sykoo.dir\src\X_O_Board_game_3.cpp.obj.d -o CMakeFiles\Sykoo.dir\src\X_O_Board_game_3.cpp.obj -c "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\X_O_Board_game_3.cpp"
+
+CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\X_O_Board_game_3.cpp" > CMakeFiles\Sykoo.dir\src\X_O_Board_game_3.cpp.i
+
+CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\X_O_Board_game_3.cpp" -o CMakeFiles\Sykoo.dir\src\X_O_Board_game_3.cpp.s
+
 CMakeFiles/Sykoo.dir/src/funcs.cpp.obj: CMakeFiles/Sykoo.dir/flags.make
 CMakeFiles/Sykoo.dir/src/funcs.cpp.obj: CMakeFiles/Sykoo.dir/includes_CXX.rsp
 CMakeFiles/Sykoo.dir/src/funcs.cpp.obj: C:/Users/Sykoo/Desktop/Coding/Ass3/project/last\ by\ danny/X_O-versions/src/funcs.cpp
 CMakeFiles/Sykoo.dir/src/funcs.cpp.obj: CMakeFiles/Sykoo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Sykoo.dir/src/funcs.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Sykoo.dir/src/funcs.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sykoo.dir/src/funcs.cpp.obj -MF CMakeFiles\Sykoo.dir\src\funcs.cpp.obj.d -o CMakeFiles\Sykoo.dir\src\funcs.cpp.obj -c "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\funcs.cpp"
 
 CMakeFiles/Sykoo.dir/src/funcs.cpp.i: cmake_force
@@ -237,7 +267,7 @@ CMakeFiles/Sykoo.dir/src/game_1.cpp.obj: CMakeFiles/Sykoo.dir/flags.make
 CMakeFiles/Sykoo.dir/src/game_1.cpp.obj: CMakeFiles/Sykoo.dir/includes_CXX.rsp
 CMakeFiles/Sykoo.dir/src/game_1.cpp.obj: C:/Users/Sykoo/Desktop/Coding/Ass3/project/last\ by\ danny/X_O-versions/src/game_1.cpp
 CMakeFiles/Sykoo.dir/src/game_1.cpp.obj: CMakeFiles/Sykoo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Sykoo.dir/src/game_1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Sykoo.dir/src/game_1.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sykoo.dir/src/game_1.cpp.obj -MF CMakeFiles\Sykoo.dir\src\game_1.cpp.obj.d -o CMakeFiles\Sykoo.dir\src\game_1.cpp.obj -c "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\game_1.cpp"
 
 CMakeFiles/Sykoo.dir/src/game_1.cpp.i: cmake_force
@@ -252,7 +282,7 @@ CMakeFiles/Sykoo.dir/src/game_2.cpp.obj: CMakeFiles/Sykoo.dir/flags.make
 CMakeFiles/Sykoo.dir/src/game_2.cpp.obj: CMakeFiles/Sykoo.dir/includes_CXX.rsp
 CMakeFiles/Sykoo.dir/src/game_2.cpp.obj: C:/Users/Sykoo/Desktop/Coding/Ass3/project/last\ by\ danny/X_O-versions/src/game_2.cpp
 CMakeFiles/Sykoo.dir/src/game_2.cpp.obj: CMakeFiles/Sykoo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Sykoo.dir/src/game_2.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Sykoo.dir/src/game_2.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Sykoo.dir/src/game_2.cpp.obj -MF CMakeFiles\Sykoo.dir\src\game_2.cpp.obj.d -o CMakeFiles\Sykoo.dir\src\game_2.cpp.obj -c "C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\src\game_2.cpp"
 
 CMakeFiles/Sykoo.dir/src/game_2.cpp.i: cmake_force
@@ -271,10 +301,12 @@ Sykoo_OBJECTS = \
 "CMakeFiles/Sykoo.dir/src/RandomPlayer.cpp.obj" \
 "CMakeFiles/Sykoo.dir/src/RandomPlayer_game_1.cpp.obj" \
 "CMakeFiles/Sykoo.dir/src/RandomPlayer_game_2.cpp.obj" \
+"CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.obj" \
 "CMakeFiles/Sykoo.dir/src/X_O_App.cpp.obj" \
 "CMakeFiles/Sykoo.dir/src/X_O_Board.cpp.obj" \
 "CMakeFiles/Sykoo.dir/src/X_O_Board_game_1.cpp.obj" \
 "CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.obj" \
+"CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.obj" \
 "CMakeFiles/Sykoo.dir/src/funcs.cpp.obj" \
 "CMakeFiles/Sykoo.dir/src/game_1.cpp.obj" \
 "CMakeFiles/Sykoo.dir/src/game_2.cpp.obj"
@@ -288,10 +320,12 @@ Sykoo.exe: CMakeFiles/Sykoo.dir/src/Player.cpp.obj
 Sykoo.exe: CMakeFiles/Sykoo.dir/src/RandomPlayer.cpp.obj
 Sykoo.exe: CMakeFiles/Sykoo.dir/src/RandomPlayer_game_1.cpp.obj
 Sykoo.exe: CMakeFiles/Sykoo.dir/src/RandomPlayer_game_2.cpp.obj
+Sykoo.exe: CMakeFiles/Sykoo.dir/src/RandomPlayer_game_3.cpp.obj
 Sykoo.exe: CMakeFiles/Sykoo.dir/src/X_O_App.cpp.obj
 Sykoo.exe: CMakeFiles/Sykoo.dir/src/X_O_Board.cpp.obj
 Sykoo.exe: CMakeFiles/Sykoo.dir/src/X_O_Board_game_1.cpp.obj
 Sykoo.exe: CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.obj
+Sykoo.exe: CMakeFiles/Sykoo.dir/src/X_O_Board_game_3.cpp.obj
 Sykoo.exe: CMakeFiles/Sykoo.dir/src/funcs.cpp.obj
 Sykoo.exe: CMakeFiles/Sykoo.dir/src/game_1.cpp.obj
 Sykoo.exe: CMakeFiles/Sykoo.dir/src/game_2.cpp.obj
@@ -307,7 +341,7 @@ Sykoo.exe: /SFML/lib/libsfml-window-d.a
 Sykoo.exe: CMakeFiles/Sykoo.dir/linkLibs.rsp
 Sykoo.exe: CMakeFiles/Sykoo.dir/objects1.rsp
 Sykoo.exe: CMakeFiles/Sykoo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Sykoo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Sykoo\Desktop\Coding\Ass3\project\last by danny\X_O-versions\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Sykoo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Sykoo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

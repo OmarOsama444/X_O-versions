@@ -51,6 +51,19 @@ public:
     int win_with( int x , int y ) ;
 };
 
+class X_O_Board_game_3 : public Board {
+public:
+    X_O_Board_game_3() ;
+    bool update_board ( int x , int y , char mark ) override ;
+    void display_board() override ;
+    bool is_winner() override ;
+    bool is_draw() override ;
+    bool game_is_over() override ;
+    int win_with( int x , int y )override;
+private:
+    int x_wins = 0, o_wins = 0;
+};
+
 class Player {
     protected:
         string name;
@@ -94,6 +107,16 @@ public:
     RandomPlayer_game_2( char symbol , int dimension1 , int dimension2 , Board* brd ) ;
     virtual void get_move( int&x , int&y ) override ;
 };
+
+class RandomPlayer_game_3: public Player {
+protected:
+    int dimension;
+    int chc {} ;
+public:
+    RandomPlayer_game_3 ( char symbol, int dimension  );
+    void get_move( int& x, int& y ) override ;
+};
+
 
 class GameManager {
     private:

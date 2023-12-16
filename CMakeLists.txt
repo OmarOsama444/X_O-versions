@@ -12,7 +12,8 @@ include_directories( c:/SFML/include )
 
 file( GLOB_RECURSE MY_SOURCES CONFIGURE_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp )
 
-add_executable(Sykoo main.cpp ${MY_SOURCES})
+add_executable(Sykoo main.cpp ${MY_SOURCES}
+        src/RandomPlayer_game_3.cpp)
 
 target_include_directories( Sykoo PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include )
 
