@@ -1,0 +1,18 @@
+# ninja log v5
+2	25	0	C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/cmake-build-debug/CMakeFiles/cmake.verify_globs	bab4dd3331e87e60
+8	68	7244559666907490	CMakeFiles/Sykoo.dir/src/X_O_App.cpp.obj	fdd08753f3fc1be4
+14	1726	7244557968459915	CMakeFiles/Sykoo.dir/src/RandomPlayer_game_1.cpp.obj	5769f94a197078d8
+35	1266	7244557963869943	CMakeFiles/Sykoo.dir/src/X_O_Board_game_1.cpp.obj	d00c2b02cc901238
+24	163	7241139904665770	CMakeFiles/Sykoo.dir/src/smart_player_game_1.cpp.obj	404c3c310fbadf7
+11	1657	7244557967770020	CMakeFiles/Sykoo.dir/src/RandomPlayer.cpp.obj	84e59afadb16aaf2
+6	1076	7244557961929114	CMakeFiles/Sykoo.dir/src/GameManager.cpp.obj	32122745e3c1d15f
+1077	2074	7244557971969909	CMakeFiles/Sykoo.dir/src/X_O_Board_game_2.cpp.obj	87b186eaff836d79
+8	1824	7244557969440124	CMakeFiles/Sykoo.dir/src/Player.cpp.obj	ed42fa4214222af9
+967	2144	7241139924547162	CMakeFiles/Sykoo.dir/src/funcs.cpp.obj	2d61eecddfd03fbf
+5	1243	7244559678645882	CMakeFiles/Sykoo.dir/main.cpp.obj	d9a6e5e28455c124
+25	1857	7244557969789937	CMakeFiles/Sykoo.dir/src/X_O_Board.cpp.obj	753f2d64a489eab2
+40	2019	7244557971399916	CMakeFiles/Sykoo.dir/src/game_1.cpp.obj	bec73a3d5876767d
+21	2068	7244557971869936	CMakeFiles/Sykoo.dir/src/game_2.cpp.obj	2aafbed5f43b390
+1243	1496	7244559681148750	Sykoo.exe	65541132bb6af866
+32	208	7244564269556409	build.ninja	a72891ead657d431
+17	1689	7244557968109933	CMakeFiles/Sykoo.dir/src/RandomPlayer_game_2.cpp.obj	e3d835404f0ac4d1

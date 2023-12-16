@@ -11,8 +11,8 @@
 using namespace std;
 
 // Set player symbol and name as Random Computer Player
-RandomPlayer::RandomPlayer (char symbol, int dimension):Player(symbol)
-{
+RandomPlayer::RandomPlayer (char symbol, int dimension , Board* brd ):
+    Player(symbol) , brd(brd) {
     this->dimension = dimension;
     this->name = "Random Computer Player";
     cout << "My names is " << name << endl;
@@ -20,6 +20,13 @@ RandomPlayer::RandomPlayer (char symbol, int dimension):Player(symbol)
 
 // Generate a random move
 void RandomPlayer::get_move (int& x, int& y) {
-    x = (int) (rand()/(RAND_MAX + 1.0) * dimension);
-    y = (int) (rand()/(RAND_MAX + 1.0) * dimension);
+    int mv = -1 ;
+    for ( int i = 0 ; i < dimension ; i++ ){
+        for ( int j = 0 ; j < dimension ; j++ ){
+            if ( brd->win_with( i , j ) > mv ){
+                x = i , y = j ;
+                mv = brd->win_with( i , j ) ;
+            }
+        }
+    }
 }

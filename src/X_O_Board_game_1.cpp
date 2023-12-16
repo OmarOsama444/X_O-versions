@@ -17,7 +17,7 @@ X_O_Board_game_1::X_O_Board_game_1() {
 }
 
 bool X_O_Board_game_1::update_board ( int x , int y , char mark ){
-    if ( !board[x][y] ){
+    if ( board[x][y] ){
         return false ;
     }
     switch ( x ) {
@@ -54,6 +54,10 @@ void X_O_Board_game_1::display_board() {
     for (int i = 0 ; i < 3 ; i++ ) {
         cout << "\n| ";
         for (int j = 0 ; j < 5 ; j++ ) {
+            if ( j < 2 - i || j > 2 + i ) {
+                cout << "       |" ;
+                continue;
+            }
             cout << "(" << i << "," << j << ")";
             cout << setw(2) << board [i][j] << " |";
         }
@@ -77,6 +81,9 @@ bool X_O_Board_game_1::is_winner() {
     if ( board[0][2] == board[1][2] && board[1][2] == board[2][2] && board[0][2] ){
         return true ;
     }
+    if ( board[1][1] == board[1][2] && board[1][2] == board[1][3] && board[1][1] ){
+        return true ;
+    }
     return false ;
 }
 
@@ -87,3 +94,21 @@ bool X_O_Board_game_1::is_draw() {
 bool X_O_Board_game_1::game_is_over() {
     return ( n_moves >= 9 ) ;
 }
+
+int X_O_Board_game_1::win_with( int x , int y ) {
+    if ( board[x][y] ) {
+        return 0 ;
+    }
+    board[x][y] = 'O' ;
+    if ( is_winner() ){
+        board[x][y] = 0 ; 
+        return 3 ; 
+    }
+    board[x][y] = 'X' ;
+    if ( is_winner() ){
+        board[x][y] = 0 ; 
+        return 2 ;
+    }
+    board[x][y] = 0 ;
+    return 1 ; 
+} 

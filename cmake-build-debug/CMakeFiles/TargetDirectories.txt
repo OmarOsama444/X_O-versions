@@ -1,0 +1,3 @@
+C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/cmake-build-debug/CMakeFiles/Sykoo.dir
+C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Sykoo/Desktop/Coding/Ass3/project/X_O-versions - gui update/cmake-build-debug/CMakeFiles/rebuild_cache.dir

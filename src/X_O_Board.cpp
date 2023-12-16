@@ -66,4 +66,22 @@ bool X_O_Board::game_is_over () {
     return n_moves >= 9;
 }
 
+int X_O_Board::win_with(int x, int y) {
+    if ( board[x][y] ) {
+        return 0 ;
+    }
+    board[x][y] = 'O' ;
+    if ( is_winner() ){
+        board[x][y] = 0 ;
+        return 3 ;
+    }
+    board[x][y] = 'X' ;
+    if ( is_winner() ){
+        board[x][y] = 0 ;
+        return 2 ;
+    }
+    board[x][y] = 0 ;
+    return 1 ;
+}
+
 

@@ -1,18 +1,20 @@
 #ifndef BoardGame_CLASSES_H
 #define BoardGame_CLASSES_H
+#include <iostream>
 using namespace std;
 
 class Board {
 protected:
    int n_rows, n_cols;
-   char** board;
    int  n_moves = 0;
+   char** board;
 public:
    virtual bool update_board (int x, int y, char symbol) = 0;
    virtual bool is_winner() = 0;
    virtual bool is_draw() = 0;
    virtual void display_board() = 0;
    virtual bool game_is_over() = 0;
+   virtual int win_with(  int x , int y ) = 0 ;
    virtual ~Board() = default ;
 };
 
@@ -24,6 +26,7 @@ public:
    bool is_winner() override ;
    bool is_draw() override ;
    bool game_is_over() override ;
+   int win_with(  int x , int y ) override ;
 };
 
 class X_O_Board_game_1 : public Board {
@@ -34,6 +37,18 @@ public:
     bool is_winner() override ;
     bool is_draw() override ;
     bool game_is_over() override ;
+    int win_with( int x , int y ) override ;
+};
+
+class X_O_Board_game_2 : public Board {
+public:
+    X_O_Board_game_2() ;
+    bool update_board ( int x , int y , char mark ) override ;
+    void display_board() override ;
+    bool is_winner() override ;
+    bool is_draw() override ;
+    bool game_is_over() override ;
+    int win_with( int x , int y ) ;
 };
 
 class Player {
@@ -51,9 +66,31 @@ class Player {
 class RandomPlayer: public Player {
     protected:
         int dimension;
+        int chc {} ;
+        Board* brd = nullptr ;
     public:
-        RandomPlayer (char symbol, int dimension);
-        void get_move(int& x, int& y) override;
+        RandomPlayer (char symbol, int dimension , Board* brd );
+        void get_move( int& x, int& y ) override ;
+};
+
+
+class RandomPlayer_game_1 : public Player {
+    protected:
+        int dimension1 {} ;
+        int dimension2 {} ;
+        Board* brd = nullptr ; 
+    public:
+        RandomPlayer_game_1( char symbol , int dimension1 , int dimension2 , Board* brd ) ;
+        virtual void get_move( int&x , int&y ) override ;
+};
+
+class RandomPlayer_game_2 : public Player  {
+    protected:
+        int dimension1{} ;
+        int dimension2{} ;
+    public:
+        RandomPlayer_game_2( char symbol , int dimension1 , int dimension2) ;
+        virtual void get_move( int&x , int&y ) override ;
 };
 
 class GameManager {
@@ -61,9 +98,8 @@ class GameManager {
         Board* boardPtr;
         Player* players[2];
     public:
-        GameManager( Player* playerPtr[2] , Board* = nullptr );
+        GameManager( Board* , Player* playerPtr[2] );
         ~GameManager();
-        void intialize( Board* ) ;
         void run();
 };
 

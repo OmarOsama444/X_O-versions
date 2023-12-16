@@ -2,14 +2,10 @@
 #include"BoardGame_Classes.hpp"
 using namespace std;
 
-GameManager::GameManager( Player* playerPtr[2] , Board* bPtr  ) {
-    boardPtr = bPtr;
-    players[0] = playerPtr[0];
-    players[1] = playerPtr[1];
-}
-
-void GameManager::intialize(Board* bPTr ) {
+GameManager::GameManager( Board* bPTr , Player* playerPtr[2] ) {
     boardPtr = bPTr ;
+    players[0] = playerPtr[0] ;
+    players[1] = playerPtr[1] ;
 }
 
 void GameManager::run() {
