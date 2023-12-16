@@ -84,13 +84,15 @@ class RandomPlayer_game_1 : public Player {
         virtual void get_move( int&x , int&y ) override ;
 };
 
-class RandomPlayer_game_2 : public Player  {
-    protected:
-        int dimension1{} ;
-        int dimension2{} ;
-    public:
-        RandomPlayer_game_2( char symbol , int dimension1 , int dimension2) ;
-        virtual void get_move( int&x , int&y ) override ;
+
+class RandomPlayer_game_2 : public Player {
+protected:
+    int dimension1 {} ;
+    int dimension2 {} ;
+    Board* brd = nullptr ;
+public:
+    RandomPlayer_game_2( char symbol , int dimension1 , int dimension2 , Board* brd ) ;
+    virtual void get_move( int&x , int&y ) override ;
 };
 
 class GameManager {
