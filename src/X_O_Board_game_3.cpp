@@ -90,7 +90,7 @@ bool X_O_Board_game_3::is_draw() {
     return false;
 }
 
-int TTT55::win_with(int x, int y) {
+int X_O_Board_game_3::win_with(int x, int y) {
     return 0;
 }
 
