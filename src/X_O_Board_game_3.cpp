@@ -90,6 +90,10 @@ bool X_O_Board_game_3::is_draw() {
     return false;
 }
 
+int TTT55::win_with(int x, int y) {
+    return 0;
+}
+
 bool X_O_Board_game_3::game_is_over() {
     return n_moves == 24;
 }
