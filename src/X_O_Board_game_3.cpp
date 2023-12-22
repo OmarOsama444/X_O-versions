@@ -76,10 +76,10 @@ bool X_O_Board_game_3::is_winner() {
     }
     if (x_wins > o_wins) {
         cout << "X wins congratulations!!!\n";
-        cout << "X wins " << x_wins << "times while O wins " << o_wins << "\n";
+        cout << "X wins " << x_wins << " times while O wins " << o_wins << "\n";
     } else if (x_wins < o_wins) {
         cout << "O wins congratulations!!!\n";
-        cout << "X wins " << x_wins << "times while O wins " << o_wins << " \n";
+        cout << "X wins " << x_wins << " times while O wins " << o_wins << " \n";
     }
     return false;
 }
